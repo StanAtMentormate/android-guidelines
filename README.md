@@ -1,4 +1,4 @@
-Thank you for your interest in ribot’s development work. Unfortunately there are no current plans to make any changes to this project in the near future, and it is not being maintained or updated. We hope you still find this a useful resource and you can check out the newest recommendations in [Android Jetpack](https://developer.android.com/jetpack/) for more ideas!
+This fork is a variation of ribot's work to meet our internal standards.
 
 # Android Guidelines
 
