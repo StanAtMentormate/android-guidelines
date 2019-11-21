@@ -240,7 +240,7 @@ __Fields__
 Annotations applying to fields should be listed __on the same line__, unless the line reaches the maximum line length.
 
 ```java
-@Nullable @Mock DataManager mDataManager;
+@Nullable @Mock DataManager dataManager;
 ```
 
 ### 2.2.7 Limit variable scope
@@ -316,8 +316,8 @@ public class MainActivity extends Activity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
-    private String mTitle;
-    private TextView mTextViewTitle;
+    private String title;
+    private TextView textViewTitle;
 
     @Override
     public void onCreate() {
@@ -507,7 +507,7 @@ Rx chains of operators require line-wrapping. Every operator must go in a new li
 
 ```java
 public Observable<Location> syncLocations() {
-    return mDatabaseHelper.getAllLocations()
+    return databaseHelper.getAllLocations()
             .concatMap(new Func1<Location, Observable<? extends Location>>() {
                 @Override
                  public Observable<? extends Location> call(Location location) {
